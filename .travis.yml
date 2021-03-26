@@ -12,7 +12,7 @@ deploy:
   region: "us-east-1"
   app: "docker"
   env: "Dockerreact-env"
-  bucket_name: "elasticbeanstalk-us-east-1-099249765807"
+  bucket_name: "travis-aws-bucket"
   bucket_path: "docker"
   on:
     branch: master
