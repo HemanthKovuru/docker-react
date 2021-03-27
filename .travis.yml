@@ -11,7 +11,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "docker"
-  env: "Dockerreact-env"
+  env: "Docker-env"
   bucket_name: "travis-aws-bucket"
   bucket_path: "docker"
   on:
@@ -19,4 +19,3 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key:
     secure: "$AWS_SECRET_KEY"
-# hello master
